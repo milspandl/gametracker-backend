@@ -1,9 +1,3 @@
-
----
-
-# 🔵 **2. README COMPLETO – BACKEND (copiar y pegar)**
-
-```md
 # GameTracker – Backend
 
 Este es el backend del proyecto GameTracker.  
@@ -18,9 +12,9 @@ Construido con:
 
 ---
 
-## 📌 Endpoints principales
+## Endpoints principales
 
-### 🎮 Juegos
+### Juegos
 | Método | Ruta | Descripción |
 |--------|------|-------------|
 | GET | /api/games | Obtiene todos los juegos |
@@ -28,7 +22,7 @@ Construido con:
 | PUT | /api/games/:id | Edita un juego |
 | DELETE | /api/games/:id | Elimina un juego |
 
-### ⭐ Reseñas
+### Reseñas
 | Método | Ruta | Descripción |
 |--------|------|-------------|
 | GET | /api/reviews/:juegoId | Obtiene reseñas por juego |
@@ -38,6 +32,5 @@ Construido con:
 
 ---
 
-## 🧩 Instalación y ejecución
+## Instalación y ejecución
 
-1. Clonar el repositorio:

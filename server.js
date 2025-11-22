@@ -7,6 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+console.log("Iniciando servidor...");
+connectDB();
+console.log("Conexión a DB iniciada");
+
 connectDB();
 
 app.use("/api/games", require("./routes/gameRoutes"));

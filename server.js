@@ -15,6 +15,10 @@ app.use("/api/reviews", require("./routes/reviewRoutes"));
 
 const PORT = process.env.PORT || 4000;
 
+app.get("/ping", (req, res) => {
+  res.send("Servidor activo ✔");
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor funcionando en puerto ${PORT}`);
 });
